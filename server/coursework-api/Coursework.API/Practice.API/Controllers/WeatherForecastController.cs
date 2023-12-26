@@ -21,7 +21,7 @@ public class PracticeSwaggerController : ControllerBase
     }
     
     
-    [HttpGet(Name = "GetWeatherForecast")]
+    [HttpGet(Name = "Ghhh")]
     public PracticeModel2 GetModel2Real()
     {
         var practiceContext = new PracticeContext();

@@ -6,6 +6,8 @@ END
 USE Coursework;
 
 -- We need tables for Courses
+-- convention is lowercase for table and column names
+-- id is the primary key, don't change that
 
 CREATE TABLE courses 
 (
