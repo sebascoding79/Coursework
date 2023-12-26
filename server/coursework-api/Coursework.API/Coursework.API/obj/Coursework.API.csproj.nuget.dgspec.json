@@ -98,11 +98,7 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {
-              "/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.Infrastructure.SQL/Coursework.Infrastructure.SQL.csproj": {
-                "projectPath": "/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.Infrastructure.SQL/Coursework.Infrastructure.SQL.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -161,7 +157,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.Core/Coursework.Core.csproj": {
+                "projectPath": "/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.Core/Coursework.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

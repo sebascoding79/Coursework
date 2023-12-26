@@ -25,10 +25,10 @@ CREATE TABLE semester
     semester VARCHAR(10)
 );
 
-CREATE TABLE grade
+CREATE TABLE grades
 (
     id INT IDENTITY(1,1) PRIMARY KEY,
-    grade VARCHAR(2)
+    letter VARCHAR(2)
 );
 
 CREATE TABLE practice1

@@ -1,3 +1,5 @@
+using Coursework.Core.Repositories;
+using Coursework.Core.Services;
 using Microsoft.EntityFrameworkCore;
 using static Coursework.API.Extensions.HostEnvironmentExtensions;
 using Coursework.Infrastructure.SQL.Models;
@@ -21,6 +23,9 @@ services.AddDbContext<CourseworkDBContext>(options => {
     options.UseSqlServer(configuration.GetConnectionString("Coursework"));
 });
 
+// We need this to be able to resolve the service and repository we created
+services.AddScoped<GradesService>();
+services.AddScoped<IGradesRepository, GradesRepository>();
 
 // -- equivalent to the Configure() Method in startup file
 // Used to configure the HTTP request pipeline so that means we are adding the middleware. 

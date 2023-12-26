@@ -1,16 +1,15 @@
 using Coursework.Core.Models;
 using Coursework.Core.Repositories;
-using Coursework.Infrastructure.SQL.Models;
 
 namespace Coursework.Core.Services;
 
 public class GradesService
 {
-    private readonly GradesRepository gradesRepository;
+    private readonly IGradesRepository gradesRepository;
 
-    public GradesService(GradesRepository repository)
+    public GradesService(IGradesRepository gradesRepository)
     {
-        this.gradesRepository = repository;
+        this.gradesRepository = gradesRepository;
     }
     public Grade FindOne(int id)
     {

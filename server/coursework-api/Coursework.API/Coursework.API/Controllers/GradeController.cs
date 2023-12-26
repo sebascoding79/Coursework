@@ -1,4 +1,5 @@
 using Coursework.Core.Models;
+using Coursework.Core.Services;
 using Microsoft.AspNetCore.Mvc;
 using Coursework.Infrastructure.SQL.Models;
 using Microsoft.EntityFrameworkCore;
@@ -9,13 +10,13 @@ namespace Coursework.API.Controllers;
 [Route("v1/[controller]")]
 public class GradeController : ControllerBase
 {
-    private readonly ILogger<GradeController> _logger;
-    private readonly CourseworkDBContext _courseworkDbContext;
+    private readonly ILogger<GradeController> logger;
+    private readonly GradesService gradesService;
 
-    public GradeController(ILogger<GradeController> logger, CourseworkDBContext dbContext)
+    public GradeController(ILogger<GradeController> logger, GradesService gradesService)
     {
-        _logger = logger;
-        _courseworkDbContext = dbContext;
+        this.logger = logger;
+        this.gradesService = gradesService;
     }
     
     // Get Method to support grabbing a grade by ID {id:int} is a template so it takes an int
@@ -24,9 +25,6 @@ public class GradeController : ControllerBase
     public IActionResult Get(
         [FromRoute] int id)
     {
-        var gradesTable = _courseworkDbContext.Grade;
-        var grade = gradesTable.FirstOrDefault(grade => grade.Id == id);
-
-        return Ok(grade ?? new Grade() { Id = 0, grade = "OOPS" });
+        return Ok(gradesService.FindOne(id));
     }
 }

@@ -1046,6 +1046,19 @@
             "rid": "win"
           }
         }
+      },
+      "Coursework.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Coursework.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Coursework.Core.dll": {}
+        }
       }
     }
   },
@@ -3215,10 +3228,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Coursework.Core/1.0.0": {
+      "type": "project",
+      "path": "../Coursework.Core/Coursework.Core.csproj",
+      "msbuildProject": "../Coursework.Core/Coursework.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Coursework.Core >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0"
     ]
   },
@@ -3246,7 +3265,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.Core/Coursework.Core.csproj": {
+              "projectPath": "/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.Core/Coursework.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

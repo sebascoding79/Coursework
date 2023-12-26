@@ -662,7 +662,6 @@
       },
       "Coursework.Core/1.0.0": {
         "dependencies": {
-          "Coursework.Infrastructure.SQL": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
         },
         "runtime": {
@@ -671,6 +670,7 @@
       },
       "Coursework.Infrastructure.SQL/1.0.0": {
         "dependencies": {
+          "Coursework.Core": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
         },
         "runtime": {

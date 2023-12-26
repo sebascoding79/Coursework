@@ -26,12 +26,6 @@
 /Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/obj/Debug/net6.0/Coursework.API.pdb
 /Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/obj/Debug/net6.0/Coursework.API.genruntimeconfig.cache
 /Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/obj/Debug/net6.0/ref/Coursework.API.dll
-/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/bin/Debug/net6.0/Coursework.Core.deps.json
-/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/bin/Debug/net6.0/Coursework.Core.runtimeconfig.json
-/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/bin/Debug/net6.0/Coursework.Core
-/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/bin/Debug/net6.0/Coursework.Infrastructure.SQL.deps.json
-/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/bin/Debug/net6.0/Coursework.Infrastructure.SQL.runtimeconfig.json
-/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/bin/Debug/net6.0/Coursework.Infrastructure.SQL
 /Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/bin/Debug/net6.0/Azure.Core.dll
 /Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/bin/Debug/net6.0/Azure.Identity.dll
 /Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll

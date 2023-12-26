@@ -1138,7 +1138,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Coursework.Infrastructure.SQL": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
         },
         "compile": {
@@ -1152,6 +1151,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Coursework.Core": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
         },
         "compile": {

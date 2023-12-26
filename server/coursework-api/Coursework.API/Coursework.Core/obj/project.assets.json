@@ -1046,19 +1046,6 @@
             "rid": "win"
           }
         }
-      },
-      "Coursework.Infrastructure.SQL/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Coursework.Infrastructure.SQL.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Coursework.Infrastructure.SQL.dll": {}
-        }
       }
     }
   },
@@ -3228,16 +3215,10 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "Coursework.Infrastructure.SQL/1.0.0": {
-      "type": "project",
-      "path": "../Coursework.Infrastructure.SQL/Coursework.Infrastructure.SQL.csproj",
-      "msbuildProject": "../Coursework.Infrastructure.SQL/Coursework.Infrastructure.SQL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Coursework.Infrastructure.SQL >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0"
     ]
   },
@@ -3265,11 +3246,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.Infrastructure.SQL/Coursework.Infrastructure.SQL.csproj": {
-              "projectPath": "/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.Infrastructure.SQL/Coursework.Infrastructure.SQL.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

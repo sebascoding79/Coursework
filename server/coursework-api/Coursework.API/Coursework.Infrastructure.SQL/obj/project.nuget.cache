@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "L0oNG5HPmb6lkOPJoroJexMSzdHFBdOukuvXg9a8sDvklOoHa6XQWFDVbrXReUpmII9pdUShEiGmvu9vDrJRiQ==",
+  "dgSpecHash": "4e/8WW+AvgWb2h5rfYXGDIpeBbNy7QQyblKXeAgY55Kp5z1b94tnVHnsLEwAME4INdYFYAvyBQaHz7h3/ydJig==",
   "success": true,
   "projectFilePath": "/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.Infrastructure.SQL/Coursework.Infrastructure.SQL.csproj",
   "expectedPackageFiles": [
