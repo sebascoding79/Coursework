@@ -1,0 +1,13 @@
+./server/coursework-api/Coursework.API/.idea
+
+./server/coursework-api/Coursework.API/Coursework.API/bin
+./server/coursework-api/Coursework.API/Coursework.API/obj
+
+./server/coursework-api/Coursework.API/Coursework.Core/bin
+./server/coursework-api/Coursework.API/Coursework.Core/obj
+
+./server/coursework-api/Coursework.API/Coursework.Infrastructure.SQL/bin
+./server/coursework-api/Coursework.API/Coursework.Infrastructure.SQL/obj
+
+./server/coursework-api/Coursework.API/Coursework.SharedKernel/bin
+./server/coursework-api/Coursework.API/Coursework.SharedKernel/obj

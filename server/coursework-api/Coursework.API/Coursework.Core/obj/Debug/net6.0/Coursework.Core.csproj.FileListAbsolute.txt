@@ -10,3 +10,6 @@
 /Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.Core/obj/Debug/net6.0/refint/Coursework.Core.dll
 /Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.Core/obj/Debug/net6.0/Coursework.Core.pdb
 /Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.Core/obj/Debug/net6.0/ref/Coursework.Core.dll
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.Core/bin/Debug/net6.0/Coursework.SharedKernel.dll
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.Core/bin/Debug/net6.0/Coursework.SharedKernel.pdb
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.Core/obj/Debug/net6.0/Coursework.Core.csproj.CopyComplete

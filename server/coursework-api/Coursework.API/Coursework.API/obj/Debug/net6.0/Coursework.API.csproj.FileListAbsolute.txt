@@ -77,3 +77,15 @@
 /Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/bin/Debug/net6.0/Coursework.Infrastructure.SQL.dll
 /Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/bin/Debug/net6.0/Coursework.Core.pdb
 /Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/bin/Debug/net6.0/Coursework.Infrastructure.SQL.pdb
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/bin/Debug/net6.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/bin/Debug/net6.0/Microsoft.AspNetCore.Razor.Language.dll
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.dll
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.Razor.dll
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/bin/Debug/net6.0/Microsoft.DotNet.PlatformAbstractions.dll
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/bin/Debug/net6.0/Coursework.SharedKernel.dll
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API/bin/Debug/net6.0/Coursework.SharedKernel.pdb

@@ -1,0 +1,12 @@
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.SharedKernel/bin/Debug/net6.0/Coursework.SharedKernel.deps.json
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.SharedKernel/bin/Debug/net6.0/Coursework.SharedKernel.dll
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.SharedKernel/bin/Debug/net6.0/Coursework.SharedKernel.pdb
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.SharedKernel/obj/Debug/net6.0/Coursework.SharedKernel.csproj.AssemblyReference.cache
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.SharedKernel/obj/Debug/net6.0/Coursework.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.SharedKernel/obj/Debug/net6.0/Coursework.SharedKernel.AssemblyInfoInputs.cache
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.SharedKernel/obj/Debug/net6.0/Coursework.SharedKernel.AssemblyInfo.cs
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.SharedKernel/obj/Debug/net6.0/Coursework.SharedKernel.csproj.CoreCompileInputs.cache
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.SharedKernel/obj/Debug/net6.0/Coursework.SharedKernel.dll
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.SharedKernel/obj/Debug/net6.0/refint/Coursework.SharedKernel.dll
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.SharedKernel/obj/Debug/net6.0/Coursework.SharedKernel.pdb
+/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.SharedKernel/obj/Debug/net6.0/ref/Coursework.SharedKernel.dll

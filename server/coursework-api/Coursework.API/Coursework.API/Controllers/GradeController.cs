@@ -2,6 +2,7 @@ using Coursework.Core.Models;
 using Coursework.Core.Services;
 using Microsoft.AspNetCore.Mvc;
 using Coursework.Infrastructure.SQL.Models;
+using Coursework.SharedKernel.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Coursework.API.Controllers;
@@ -25,6 +26,8 @@ public class GradeController : ControllerBase
     public IActionResult Get(
         [FromRoute] int id)
     {
-        return Ok(gradesService.FindOne(id));
+        return gradesService
+            .FindOne(id)
+            .ToActionResult();
     }
 }

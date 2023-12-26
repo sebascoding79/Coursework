@@ -1,6 +1,7 @@
 using Coursework.Core.Repositories;
 using Coursework.Core.Models;
 using Coursework.Infrastructure.SQL.Models;
+using Coursework.SharedKernel.Models;
 
 namespace Coursework.Core.Repositories;
 
@@ -12,9 +13,11 @@ public class GradesRepository : IGradesRepository
     {
         _courseworkDbContext = context;
     }
-    public Grade FindOne(int id)
+    public Result<Grade> FindOne(int id)
     {
         var grade = _courseworkDbContext.Grades.FirstOrDefault(grade => grade.Id == id);
-        return grade ?? new Grade() { Id = 0, Letter = "OOPS" };
+        return grade is null
+            ? Error.NotFound
+            : new Result<Grade>(Value: grade);
     }
 }

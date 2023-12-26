@@ -1,5 +1,6 @@
 using Coursework.Core.Models;
 using Coursework.Core.Repositories;
+using Coursework.SharedKernel.Models;
 
 namespace Coursework.Core.Services;
 
@@ -11,8 +12,9 @@ public class GradesService
     {
         this.gradesRepository = gradesRepository;
     }
-    public Grade FindOne(int id)
+    public Result<Grade> FindOne(int id)
     {
         return gradesRepository.FindOne(id);
     }
+    
 }
