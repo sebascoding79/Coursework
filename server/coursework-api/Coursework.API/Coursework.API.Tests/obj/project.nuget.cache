@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "d0p5tRSP8R0+DjDSBRhHP4fRrYaEtEI1E0nPoIpCoMkhh3chPbwK8tbmeZLnTw8PzTJPFCuwgSWJ/BZt9kKUAg==",
+  "dgSpecHash": "8T/S4jxh/WHytUjAgEpFte/ih9C7l6ogaDxcl1EjxXZqju30NCHDy7I5+QycqP4LIkQPEGqXasU5uWGUrWsefA==",
   "success": true,
   "projectFilePath": "/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.API.Tests/Coursework.API.Tests.csproj",
   "expectedPackageFiles": [

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QZcJIzzvcCha8wpNyWPDqDyQfNFw+HHFcOoyWOALBwiRo1iIkVGHfwF7q3TtTduHqdB579+uK17OvAyJdaCpfg==",
+  "dgSpecHash": "A074Cq+VvzOfmI6KtWoVzuCAPgbGkr0U4BWvEUtD+9hOy1+ELAKYPV+3wa6NBxC8rbQr+CzhCiY97bYhsY1+CQ==",
   "success": true,
   "projectFilePath": "/Users/sebastiancastro/Documents/Projects/Coursework/server/coursework-api/Coursework.API/Coursework.SharedKernel/Coursework.SharedKernel.csproj",
   "expectedPackageFiles": [

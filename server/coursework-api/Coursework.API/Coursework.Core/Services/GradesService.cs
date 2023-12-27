@@ -16,5 +16,10 @@ public class GradesService
     {
         return gradesRepository.FindOne(id);
     }
+
+    public Result AddLetterGrade(string letter)
+    {
+        return gradesRepository.AddLetterGrade(letter);
+    }
     
 }

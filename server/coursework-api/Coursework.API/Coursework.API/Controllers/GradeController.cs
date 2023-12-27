@@ -30,4 +30,12 @@ public class GradeController : ControllerBase
             .FindOne(id)
             .ToActionResult();
     }
+
+    [HttpPost("AddGrade")]
+    public IActionResult AddGrade(string letterGrade)
+    {
+        return gradesService
+            .AddLetterGrade(letterGrade)
+            .ToActionResult();
+    }
 }

@@ -20,7 +20,21 @@ public static class ResultExtensions
         }
 
         return result.Value is null
-            ? new ObjectResult(result.Value) { StatusCode = StatusCodes.Status404NotFound }
+            ? new ObjectResult("Result not found") { StatusCode = StatusCodes.Status404NotFound }
             : new ObjectResult(result.Value) { StatusCode = StatusCodes.Status200OK };
+    }
+
+    public static IActionResult ToActionResult(
+        this Result result)
+    {
+        if (result.Error is not null)
+        {
+            return new ObjectResult(result.Error?.Message ?? result.Error?.Exception?.Message ?? "System error")
+            {
+                StatusCode = (int?)result.Error?.ErrorCode ?? StatusCodes.Status500InternalServerError
+            };
+        }
+
+        return new StatusCodeResult((int)StatusCodes.Status200OK);
     }
 }
