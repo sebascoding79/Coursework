@@ -1,13 +1,37 @@
-./server/coursework-api/Coursework.API/.idea
+*.dll
+*.cache
+*.info
+*/obj/
+*/bin/
 
-./server/coursework-api/Coursework.API/Coursework.API/bin
-./server/coursework-api/Coursework.API/Coursework.API/obj
+server/coursework-api/Coursework.API/.vs/
 
-./server/coursework-api/Coursework.API/Coursework.Core/bin
-./server/coursework-api/Coursework.API/Coursework.Core/obj
+server/coursework-api/Coursework.API/.idea/
 
-./server/coursework-api/Coursework.API/Coursework.Infrastructure.SQL/bin
-./server/coursework-api/Coursework.API/Coursework.Infrastructure.SQL/obj
+server/coursework-api/Coursework.API/src/Coursework.API/bin/
+server/coursework-api/Coursework.API/src/Coursework.API/obj/
+server/coursework-api/Coursework.API/src/Coursework.Core/bin/
+server/coursework-api/Coursework.API/src/Coursework.Core/obj/
 
-./server/coursework-api/Coursework.API/Coursework.SharedKernel/bin
-./server/coursework-api/Coursework.API/Coursework.SharedKernel/obj
+server/coursework-api/Coursework.API/src/Coursework.Infrastructure.SQL/bin/
+server/coursework-api/Coursework.API/src/Coursework.Infrastructure.SQL/obj/
+
+server/coursework-api/Coursework.API/src/Coursework.SharedKernel/bin/
+server/coursework-api/Coursework.API/src/Coursework.SharedKernel/obj/
+
+server\coursework-api\Coursework.API\tests\Coursework.Infrastructure.SQL.Tests\bin/
+server\coursework-api\Coursework.API\tests\Coursework.Infrastructure.SQL.Tests\obj/
+
+server\coursework-api\Coursework.API\tests\Coursework.API.Tests\bin/
+server\coursework-api\Coursework.API\tests\Coursework.API.Tests\obj/
+
+server\coursework-api\Coursework.API\tests\Coursework.Core.Tests\bin/
+server\coursework-api\Coursework.API\tests\Coursework.Core.Tests\obj/
+
+*.xml
+*.vsidx
+*.DS_Store
+*.bin
+/.vs/Coursework/v17/.wsuo
+/.vs
+/server/coursework-api/Coursework.API/.vs/Coursework.API/v17/.suo

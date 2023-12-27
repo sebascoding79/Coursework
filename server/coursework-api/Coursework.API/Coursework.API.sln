@@ -1,28 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeEF", "PracticeEF\PracticeEF.csproj", "{C0D73E92-9C56-4973-98D7-B9DB40032FBB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coursework.API", "src\Coursework.API\Coursework.API.csproj", "{BDE05C05-2523-4464-AC58-4211239B8DB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.API", "Practice.API\Practice.API.csproj", "{ACDC337A-F52F-4413-BF8E-55B394FE39A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coursework.Core", "src\Coursework.Core\Coursework.Core.csproj", "{92D46F4A-0944-49D1-AE73-F38F23541E55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coursework.API", "Coursework.API\Coursework.API.csproj", "{BDE05C05-2523-4464-AC58-4211239B8DB1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coursework.Core", "Coursework.Core\Coursework.Core.csproj", "{92D46F4A-0944-49D1-AE73-F38F23541E55}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coursework.Infrastructure.SQL", "Coursework.Infrastructure.SQL\Coursework.Infrastructure.SQL.csproj", "{C26D465E-25B8-4BE6-810D-1855C1153E66}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coursework.Infrastructure.SQL", "src\Coursework.Infrastructure.SQL\Coursework.Infrastructure.SQL.csproj", "{C26D465E-25B8-4BE6-810D-1855C1153E66}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1976F755-02DB-4A3C-B260-3229C7A73E8F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{EB09C07B-16D8-49D5-BDE8-EB75E1E51037}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coursework.API.Tests", "Coursework.API.Tests\Coursework.API.Tests.csproj", "{5E4205F0-5BF7-40C3-B477-6EBCE2B63164}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coursework.API.Tests", "tests\Coursework.API.Tests\Coursework.API.Tests.csproj", "{5E4205F0-5BF7-40C3-B477-6EBCE2B63164}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coursework.Core.Tests", "Coursework.Core.Tests\Coursework.Core.Tests.csproj", "{0F2A69F9-4A6D-47BD-83CF-2A4412C8330D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coursework.Core.Tests", "tests\Coursework.Core.Tests\Coursework.Core.Tests.csproj", "{0F2A69F9-4A6D-47BD-83CF-2A4412C8330D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coursework.Infrastructure.SQL.Tests", "Coursework.Infrastructure.SQL.Tests\Coursework.Infrastructure.SQL.Tests.csproj", "{4D224FE6-3E28-4669-A361-2C3A77950FD6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coursework.Infrastructure.SQL.Tests", "tests\Coursework.Infrastructure.SQL.Tests\Coursework.Infrastructure.SQL.Tests.csproj", "{4D224FE6-3E28-4669-A361-2C3A77950FD6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "practice", "practice", "{D60A23A7-2173-4E85-86B6-32497B34DE7B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coursework.SharedKernel", "Coursework.SharedKernel\Coursework.SharedKernel.csproj", "{945331D2-62AA-4EA1-972F-89C498999FB7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coursework.SharedKernel", "src\Coursework.SharedKernel\Coursework.SharedKernel.csproj", "{945331D2-62AA-4EA1-972F-89C498999FB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

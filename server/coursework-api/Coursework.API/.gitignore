@@ -1,0 +1,15 @@
+[Oo]bj
+[Bb]in
+[Dd]ebug
+[Bb]uild
+
+*.info
+*.targets
+*.g.*
+*.lib
+*.DS_Store
+*.[Cc]ache
+*.user
+*.suo
+*.pdb
+*.cache
