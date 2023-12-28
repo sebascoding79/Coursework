@@ -17,6 +17,19 @@ var configuration = builder.Configuration;
 
 services.AddControllers();
 services.AddEndpointsApiExplorer();
+
+var apiCorsPolicy = "ApiCorsPolicy";
+services.AddCors(options =>
+{
+    options.AddPolicy(name: apiCorsPolicy,
+        builder =>
+        {
+            builder
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader();
+        });
+});
 services.AddSwaggerGen();
 
 services.AddDbContext<CourseworkDBContext>(options => {
@@ -33,6 +46,8 @@ services.AddScoped<IGradesRepository, GradesRepository>();
 // middleware = sits between application and server to handle http requests
 
 var app = builder.Build();
+
+app.UseCors(apiCorsPolicy);
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsLocal())
