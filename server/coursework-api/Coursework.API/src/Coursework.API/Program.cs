@@ -37,7 +37,7 @@ services.AddDbContext<CourseworkDBContext>(options => {
 });
 
 // We need this to be able to resolve the service and repository we created
-services.AddScoped<GradesService>();
+services.AddScoped<IGradesService, GradesService>();
 services.AddScoped<IGradesRepository, GradesRepository>();
 
 // -- equivalent to the Configure() Method in startup file

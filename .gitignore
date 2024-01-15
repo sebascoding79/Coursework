@@ -32,6 +32,8 @@ server\coursework-api\Coursework.API\tests\Coursework.Core.Tests\obj/
 *.vsidx
 *.DS_Store
 *.bin
+*.info
+*.editorconfig
 /.vs/Coursework/v17/.wsuo
 /.vs
 /server/coursework-api/Coursework.API/.vs/Coursework.API/v17/.suo

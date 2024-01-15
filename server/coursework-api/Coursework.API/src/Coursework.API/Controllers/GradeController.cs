@@ -25,7 +25,7 @@ public class GradesController : ControllerBase
     //'https://localhost:5001/grade?id=1'
     // Bind required - forces us to have the parameter in question (not null)
     [HttpGet("{id:int}")]
-    public IActionResult GetId([FromQuery] int id)
+    public IActionResult GetId([FromRoute] int id)
     {
         return gradesService
             .FindOne(id)
