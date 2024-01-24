@@ -13,7 +13,6 @@ public class CourseworkDBContext : DbContext
 
     // Now we need to add the tables we want to have, we can start with the grade table
     // Using a getter/setter is also ok
-    public DbSet<Grade> Grades => Set<Grade>();
     public DbSet<Course> Courses => Set<Course>();
 
 }

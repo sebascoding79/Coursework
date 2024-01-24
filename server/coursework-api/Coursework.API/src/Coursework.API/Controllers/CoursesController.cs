@@ -17,15 +17,27 @@ public class CoursesController : ControllerBase
         this.courseService = courseService;
     }
     
-    // Get Method to support grabbing a grade by ID {id:int} is a template so it takes an int
-    // called id and the "id" is part of that route's name
+    // Get Method to support grabbing a course by ID {id:int} is a template so it takes an int
+    // called id and the "id" is part of that route
     // Request URL https://localhost:5001/v1/Grade/1
     // The route will have the id parameter
     [HttpGet("{id:int}")]
     public IActionResult Get([FromRoute] int id)
     {
+        this.logger.LogInformation($"Retrieving the course wih id: {id}");
+
         return courseService
             .FindOneById(id)
+            .ToActionResult();
+    }
+
+    [HttpGet("")]
+    public IActionResult GetCourses()
+    {
+        this.logger.LogInformation($"Retrieves a list of courses");
+
+        return courseService
+            .GetAll()
             .ToActionResult();
     }
 

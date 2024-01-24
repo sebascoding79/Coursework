@@ -1,0 +1,17 @@
+<p>courses works!</p>
+<table>
+    <tr>
+        <th>Course ID</th>
+        <th>Description</th>
+        <th>Year Taken</th>
+        <th>Semester</th>
+        <th>Grade</th>
+    </tr>
+    <tr *ngIf="let course of courses">
+        <td>course.cid</td>
+        <td>course.description</td>
+        <td>course.year</td>
+        <td>course.semester</td>
+        <td>course.grade</td>
+    </tr>
+</table>

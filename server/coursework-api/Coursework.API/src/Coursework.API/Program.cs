@@ -3,6 +3,7 @@ using Coursework.Core.Services;
 using Microsoft.EntityFrameworkCore;
 using static Coursework.API.Extensions.HostEnvironmentExtensions;
 using Coursework.Infrastructure.SQL.Models;
+using Coursework.Infrastructure.SQL.Repositories;
 // Whenever a class is static you have to include it with "using static"
 
 // -- Note: The startup and program files are combined now so everything in program
@@ -33,12 +34,18 @@ services.AddCors(options =>
 services.AddSwaggerGen();
 
 services.AddDbContext<CourseworkDBContext>(options => {
-    options.UseSqlServer(configuration.GetConnectionString("Coursework"));
+    options.UseSqlServer(
+        configuration.GetConnectionString("Coursework"),
+        options => options.EnableRetryOnFailure(
+                    maxRetryCount: 5,
+                    maxRetryDelay: System.TimeSpan.FromSeconds(30),
+                    errorNumbersToAdd: null)
+    );
 });
 
 // We need this to be able to resolve the service and repository we created
-services.AddScoped<IGradesService, GradesService>();
-services.AddScoped<IGradesRepository, GradesRepository>();
+services.AddScoped<ICourseRepository, CourseRepository>();
+services.AddScoped<ICourseService, CourseService>();
 
 // -- equivalent to the Configure() Method in startup file
 // Used to configure the HTTP request pipeline so that means we are adding the middleware. 

@@ -4,7 +4,7 @@ using Coursework.SharedKernel.Models;
 
 namespace Coursework.Core.Services;
 
-public class CourseService
+public class CourseService : ICourseService
 {
     private readonly ICourseRepository _courseRepository;
 
@@ -16,6 +16,11 @@ public class CourseService
     public Result<Course> FindOneById(int id)
     {
         return _courseRepository.FindOne(id);
+    }
+
+    public Result<ICollection<Course>> GetAll()
+    {
+        return _courseRepository.GetAll();
     }
 
     public Result AddOne(Course course)

@@ -4,7 +4,7 @@ public class Course
 {
     public int? Id { get; set; }
     public string CId { get; set; }
-    public string CName { get; set; }
-    public Grade Grade { get; set; }
-    public Semester Semester { get; set; }
+    public string Description { get; set; }
+    public string Grade { get; set; }
+    public string Semester { get; set; }
 }

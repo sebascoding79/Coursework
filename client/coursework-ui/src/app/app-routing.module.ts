@@ -1,11 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { GradesComponent } from './components/grades/grades.component';
 import { SemesterComponent } from './components/semester/semester.component';
 
 const routes: Routes = [
-  {path: '', component: GradesComponent},
-  {path: 'possible-grades', component: GradesComponent},
   {path: 'possible-semester', component: SemesterComponent}
 ];
 
