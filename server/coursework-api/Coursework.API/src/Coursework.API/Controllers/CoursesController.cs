@@ -10,9 +10,9 @@ namespace Coursework.API.Controllers;
 public class CoursesController : ControllerBase
 {
     private readonly ILogger<CoursesController> logger;
-    private readonly CourseService courseService;
+    private readonly ICourseService courseService;
 
-    public CoursesController(ILogger<CoursesController> logger, CourseService courseService){
+    public CoursesController(ILogger<CoursesController> logger, ICourseService courseService){
         this.logger = logger;
         this.courseService = courseService;
     }
@@ -34,7 +34,7 @@ public class CoursesController : ControllerBase
     [HttpGet("")]
     public IActionResult GetCourses()
     {
-        this.logger.LogInformation($"Retrieves a list of courses");
+        this.logger.LogInformation("Retrieves a list of courses");
 
         return courseService
             .GetAll()

@@ -1,7 +1,7 @@
 export interface course{
     id: number;
     cid: string;
-    description: string;
+    cname: string;
     year: number;
     semester: string;
     grade: string;

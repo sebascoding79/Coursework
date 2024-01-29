@@ -1,10 +1,10 @@
 namespace Coursework.Core.Models;
 
-public class Course
+public class Course : Aggregate<int>
 {
-    public int? Id { get; set; }
-    public string CId { get; set; }
-    public string Description { get; set; }
-    public string Grade { get; set; }
-    public string Semester { get; set; }
+    public string Cid { get; set; } = string.Empty;
+    public string Cname { get; set; } = string.Empty;
+    public int Year { get; set; }
+    public string Semester { get; set; } = string.Empty;
+    public string Grade { get; set; } = string.Empty;
 }

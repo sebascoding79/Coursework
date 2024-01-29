@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { SemesterComponent } from './components/semester/semester.component';
+import { CoursesComponent } from './components/courses/courses.component';
 
 const routes: Routes = [
-  {path: 'possible-semester', component: SemesterComponent}
+  {path: '', component: CoursesComponent}
 ];
 
 // '' for path indicates an empty path so basically the landing page

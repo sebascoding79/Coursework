@@ -12,33 +12,9 @@ USE Coursework;
 CREATE TABLE courses 
 (
     id INT IDENTITY(1,1) PRIMARY KEY,
-    cname VARCHAR(15),
-    cdescription VARCHAR(100),
+    cid VARCHAR(15),
+    cname VARCHAR(100),
     year INT,
-    semesterid INT,
-    gradeid INT
-);
-
-CREATE TABLE semester
-(
-    id INT IDENTITY(1,1) PRIMARY KEY,
-    semester VARCHAR(10)
-);
-
-CREATE TABLE grades
-(
-    id INT IDENTITY(1,1) PRIMARY KEY,
-    letter VARCHAR(2)
-);
-
-CREATE TABLE practice1
-(
-    id INT PRIMARY KEY,
-    description VARCHAR(15)
-);
-
-CREATE TABLE practice2
-(
-    id INT IDENTITY(1,1) PRIMARY KEY,
-    description VARCHAR(10)
+    semester VARCHAR(10),
+    grade VARCHAR(3)
 );

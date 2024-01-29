@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
-import { SemesterComponent } from './components/semester/semester.component';
 import { CoursesComponent } from './components/courses/courses.component';
 
 // Declarations are for components we need to have at our disposal, pipes, directives
@@ -13,7 +12,6 @@ import { CoursesComponent } from './components/courses/courses.component';
   declarations: [
     AppComponent,
     CoursesComponent,
-    SemesterComponent
   ],
   imports: [
     BrowserModule,
